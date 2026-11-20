@@ -1,0 +1,679 @@
+{
+  "framework": "angular",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/masuma-web/browser",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; media-src 'self' blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co wss://*.supabase.co; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/categoria-producto/neumaticos/goodyear/:rest*",
+      "destination": "/catalogo?tipo=neumaticos&marca=goodyear",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/neumaticos/aeroclassic/:rest*",
+      "destination": "/catalogo?tipo=neumaticos&marca=aeroclassic",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/neumaticos/sta/:rest*",
+      "destination": "/catalogo?tipo=neumaticos&marca=specialty-tire-of-america-sta",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/baterias-aeronauticas/gill/:rest*",
+      "destination": "/catalogo?tipo=baterias&marca=gill",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/baterias-aeronauticas/concorde/:rest*",
+      "destination": "/catalogo?tipo=baterias&marca=concorde",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/neumaticos/:rest*",
+      "destination": "/catalogo?tipo=neumaticos",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/baterias-aeronauticas/:rest*",
+      "destination": "/catalogo?tipo=baterias",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/productos-powervamp-aerospecialties/:rest*",
+      "destination": "/catalogo?tipo=aerospecialties",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/otros/:rest*",
+      "destination": "/catalogo?tipo=otros",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/pilatus-aircraft/:rest*",
+      "destination": "/catalogo?tipo=pilatus",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/:rest*",
+      "destination": "/#productos",
+      "permanent": true
+    },
+    {
+      "source": "/quienes_somos",
+      "destination": "/#nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/quienes_somos/",
+      "destination": "/#nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/servicios",
+      "destination": "/#nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/servicios/",
+      "destination": "/#nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/novedades",
+      "destination": "/#nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/novedades/",
+      "destination": "/#nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/mi-cuenta",
+      "destination": "/ingresar",
+      "permanent": true
+    },
+    {
+      "source": "/mi-cuenta/",
+      "destination": "/ingresar",
+      "permanent": true
+    },
+    {
+      "source": "/anulacion-de-compra",
+      "destination": "/como-comprar#arrepentimiento",
+      "permanent": true
+    },
+    {
+      "source": "/anulacion-de-compra/",
+      "destination": "/como-comprar#arrepentimiento",
+      "permanent": true
+    },
+    {
+      "source": "/trabaje-con-nosotros",
+      "destination": "/#trabaje-con-nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/trabaje-con-nosotros/",
+      "destination": "/#trabaje-con-nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/terminos-y-condiciones",
+      "destination": "/legales/terminos",
+      "permanent": true
+    },
+    {
+      "source": "/terminos-y-condiciones/",
+      "destination": "/legales/terminos",
+      "permanent": true
+    },
+    {
+      "source": "/politica-de-privacidad",
+      "destination": "/legales/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/politica-de-privacidad/",
+      "destination": "/legales/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/promo",
+      "destination": "/#productos",
+      "permanent": true
+    },
+    {
+      "source": "/promo/",
+      "destination": "/#productos",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/12-24ga",
+      "destination": "/productos/12-24ga",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/12-24ga/",
+      "destination": "/productos/12-24ga",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-10-00-channel",
+      "destination": "/productos/ac-10-00-channel",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-10-00-channel/",
+      "destination": "/productos/ac-10-00-channel",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-10x3-50-4",
+      "destination": "/productos/ac-10x3-50-4",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-10x3-50-4/",
+      "destination": "/productos/ac-10x3-50-4",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-2-80-2-50-4",
+      "destination": "/productos/ac-2-80-2-50-4",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-2-80-2-50-4/",
+      "destination": "/productos/ac-2-80-2-50-4",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-4-00-6-6ply",
+      "destination": "/productos/ac-4-00-6-6ply",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/aeroclassic/ac-4-00-6-6ply/",
+      "destination": "/productos/ac-4-00-6-6ply",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/aceite-bp-turbo-2380",
+      "destination": "/productos/aceite-bp-turbo-2380",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/aceite-bp-turbo-2380/",
+      "destination": "/productos/aceite-bp-turbo-2380",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/bujias-champion",
+      "destination": "/productos/bujias-champion",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/bujias-champion/",
+      "destination": "/productos/bujias-champion",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-40l",
+      "destination": "/productos/concorde-rg380-40l",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-40l/",
+      "destination": "/productos/concorde-rg380-40l",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-60l",
+      "destination": "/productos/concorde-rg380-60l",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-60l/",
+      "destination": "/productos/concorde-rg380-60l",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-e44",
+      "destination": "/productos/concorde-rg380-e44",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-e44/",
+      "destination": "/productos/concorde-rg380-e44",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-e44k",
+      "destination": "/productos/concorde-rg380-e44k",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-e44k/",
+      "destination": "/productos/concorde-rg380-e44k",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-e44l",
+      "destination": "/productos/concorde-rg380-e44l",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg380-e44l/",
+      "destination": "/productos/concorde-rg380-e44l",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg390",
+      "destination": "/productos/concorde-rg390",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/concorde/concorde-rg390/",
+      "destination": "/productos/concorde-rg390",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/coolspoll-29",
+      "destination": "/productos/coolspoll-29",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/coolspoll-29/",
+      "destination": "/productos/coolspoll-29",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/coolspool-58",
+      "destination": "/productos/coolspool-58",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/coolspool-58/",
+      "destination": "/productos/coolspool-58",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/filtro-de-aceite-champion",
+      "destination": "/productos/filtro-de-aceite-champion",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/filtro-de-aceite-champion/",
+      "destination": "/productos/filtro-de-aceite-champion",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-custom-iii",
+      "destination": "/productos/flight-custom-iii",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-custom-iii/",
+      "destination": "/productos/flight-custom-iii",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-eagle",
+      "destination": "/productos/flight-eagle",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-eagle/",
+      "destination": "/productos/flight-eagle",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-eagle-lt",
+      "destination": "/productos/flight-eagle-lt",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-eagle-lt/",
+      "destination": "/productos/flight-eagle-lt",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-comercial/flight-leader",
+      "destination": "/productos/flight-leader",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-comercial/flight-leader/",
+      "destination": "/productos/flight-leader",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-militar/flight-radial",
+      "destination": "/productos/flight-radial",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-militar/flight-radial/",
+      "destination": "/productos/flight-radial",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-radial-2",
+      "destination": "/productos/flight-radial-2",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-radial-2/",
+      "destination": "/productos/flight-radial-2",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-comercial/flight-radial-3",
+      "destination": "/productos/flight-radial-3",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-comercial/flight-radial-3/",
+      "destination": "/productos/flight-radial-3",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-special-ii",
+      "destination": "/productos/flight-special-ii",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-general/flight-special-ii/",
+      "destination": "/productos/flight-special-ii",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/fluido-hidraulico-para-aviacion-skydrol",
+      "destination": "/productos/fluido-hidraulico-para-aviacion-skydrol",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/fluido-hidraulico-para-aviacion-skydrol/",
+      "destination": "/productos/fluido-hidraulico-para-aviacion-skydrol",
+      "permanent": true
+    },
+    {
+      "source": "/productos/general/gill-7025-20-sellada",
+      "destination": "/productos/gill-7025-20-sellada",
+      "permanent": true
+    },
+    {
+      "source": "/productos/general/gill-7025-20-sellada/",
+      "destination": "/productos/gill-7025-20-sellada",
+      "permanent": true
+    },
+    {
+      "source": "/productos/general/gill-7035-28",
+      "destination": "/productos/gill-7035-28",
+      "permanent": true
+    },
+    {
+      "source": "/productos/general/gill-7035-28/",
+      "destination": "/productos/gill-7035-28",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g-25",
+      "destination": "/productos/gill-g-25",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g-25/",
+      "destination": "/productos/gill-g-25",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g-35",
+      "destination": "/productos/gill-g-35",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g-35/",
+      "destination": "/productos/gill-g-35",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g241",
+      "destination": "/productos/gill-g241",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g241/",
+      "destination": "/productos/gill-g241",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g242",
+      "destination": "/productos/gill-g242",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g242/",
+      "destination": "/productos/gill-g242",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g243",
+      "destination": "/productos/gill-g243",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g243/",
+      "destination": "/productos/gill-g243",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g246",
+      "destination": "/productos/gill-g246",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g246/",
+      "destination": "/productos/gill-g246",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g6381e",
+      "destination": "/productos/gill-g6381e",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g6381e/",
+      "destination": "/productos/gill-g6381e",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g6381es",
+      "destination": "/productos/gill-g6381es",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-g6381es/",
+      "destination": "/productos/gill-g6381es",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-ge-51c",
+      "destination": "/productos/gill-ge-51c",
+      "permanent": true
+    },
+    {
+      "source": "/productos/baterias-aeronauticas/gill/gill-ge-51c/",
+      "destination": "/productos/gill-ge-51c",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/gpu-1500s",
+      "destination": "/productos/gpu-1500s",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/gpu-1500s/",
+      "destination": "/productos/gpu-1500s",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/lamparas-ge",
+      "destination": "/productos/lamparas-ge",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/lamparas-ge/",
+      "destination": "/productos/lamparas-ge",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-12-ng-el-monomotor-multiproposito-preferido",
+      "destination": "/productos/pc-12-ng-el-monomotor-multiproposito-preferido",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-12-ng-el-monomotor-multiproposito-preferido/",
+      "destination": "/productos/pc-12-ng-el-monomotor-multiproposito-preferido",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-21-el-entrenador-efectivo",
+      "destination": "/productos/pc-21-el-entrenador-efectivo",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-21-el-entrenador-efectivo/",
+      "destination": "/productos/pc-21-el-entrenador-efectivo",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-24-el-jet-super-versatil-con-clase-propia",
+      "destination": "/productos/pc-24-el-jet-super-versatil-con-clase-propia",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-24-el-jet-super-versatil-con-clase-propia/",
+      "destination": "/productos/pc-24-el-jet-super-versatil-con-clase-propia",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-7-mkii-una-aeronave-para-entrenamiento-basico",
+      "destination": "/productos/pc-7-mkii-una-aeronave-para-entrenamiento-basico",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-7-mkii-una-aeronave-para-entrenamiento-basico/",
+      "destination": "/productos/pc-7-mkii-una-aeronave-para-entrenamiento-basico",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-9-m-una-aeronave-para-entrenamiento-avanzado",
+      "destination": "/productos/pc-9-m-una-aeronave-para-entrenamiento-avanzado",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pilatus-aircraft/pc-9-m-una-aeronave-para-entrenamiento-avanzado/",
+      "destination": "/productos/pc-9-m-una-aeronave-para-entrenamiento-avanzado",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/portapump-mkii",
+      "destination": "/productos/portapump-mkii",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/portapump-mkii/",
+      "destination": "/productos/portapump-mkii",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/prist-aditivo-anticongelante",
+      "destination": "/productos/prist-aditivo-anticongelante",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros/prist-aditivo-anticongelante/",
+      "destination": "/productos/prist-aditivo-anticongelante",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/ps50c-y-ps30c",
+      "destination": "/productos/ps50c-y-ps30c",
+      "permanent": true
+    },
+    {
+      "source": "/productos/productos-powervamp-aerospecialties/ps50c-y-ps30c/",
+      "destination": "/productos/ps50c-y-ps30c",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-militar/rib",
+      "destination": "/productos/rib",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/goodyear/aviacion-militar/rib/",
+      "destination": "/productos/rib",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/sta/sta-air-hawk",
+      "destination": "/productos/sta-air-hawk",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/sta/sta-air-hawk/",
+      "destination": "/productos/sta-air-hawk",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/sta/sta-air-trac",
+      "destination": "/productos/sta-air-trac",
+      "permanent": true
+    },
+    {
+      "source": "/productos/neumaticos/sta/sta-air-trac/",
+      "destination": "/productos/sta-air-trac",
+      "permanent": true
+    }
+  ]
+}

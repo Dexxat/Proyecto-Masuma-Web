@@ -1,0 +1,445 @@
+{
+ "gill-7035-28": {
+  "name": "GILL 7035-28",
+  "description": "Nominal Voltage, V: 12\nOne Hour Capacity, C1, Ah: 28\n30 Minute Emergency Rate,C/2 A: 45\nWeight, Lb. Maximum: 30.00\nPowerPerformance:23°C:(75°F) 18°C (0° F) -30°C (-22°F)\nIpp, A :1599/ 1100 / 850\nIpr, A: 1088/ 840/ 600",
+  "images": [
+   "media/productos/7035-28.webp",
+   "media/productos/7035-28-medidas.webp"
+  ],
+  "links": []
+ },
+ "gill-7025-20-sellada": {
+  "name": "Gill 7025-20 sellada",
+  "description": "Número de modelo: 7025-20\nNúmero de parte: 22113\nTipo: Sellado\nVoltios: 12\nPeso 23 lbs\nElectrolito: No es necesario\nCapacidad: 1 hora (C1) 20\nlpp: 30 min (2C) 32 lpr\nDescripción Batería de Avión\nTSO Autorizado: Sí\nFAA-PMA: Sí",
+  "images": [
+   "media/productos/7025-20-1.webp",
+   "media/productos/7025-20-1-medidas.webp"
+  ],
+  "links": []
+ },
+ "pc-24-el-jet-super-versatil-con-clase-propia": {
+  "name": "PC-24 El Jet Super Versátil  con clase propia",
+  "description": "El Jet Super Versátil con clase propia\n\nTake-off Distance 2,690 ft\nSpeed 425 ktas\nRange 1950 nm",
+  "images": [
+   "media/productos/pc-24.webp",
+   "media/productos/medidas-pc-24-2.webp",
+   "media/productos/foto7-contenido-scaled.webp",
+   "media/productos/foto18-contenido-scaled.webp"
+  ],
+  "links": [
+   "https://youtu.be/Z1MIFuLV6iM"
+  ]
+ },
+ "pc-21-el-entrenador-efectivo": {
+  "name": "PC-21 El Entrenador Efectivo",
+  "description": "El Entrenador Efectivo\n\nRate of Climb 3,091 ft/min\nSpeed 370 keas\nG Loads +8.0 g. / -4.0 g",
+  "images": [
+   "media/productos/pc21.webp",
+   "media/productos/medidas-pc-21-2.webp",
+   "media/productos/3.webp",
+   "media/productos/foto2-scaled.webp"
+  ],
+  "links": []
+ },
+ "pc-12-ng-el-monomotor-multiproposito-preferido": {
+  "name": "PC-12 NG  El Monomotor Multipropósito Preferido",
+  "description": "El Monomotor Multipropósito Preferido\n\nTake-off Distance 2,602 ft\nSpeed 285 ktas\nRange",
+  "images": [
+   "media/productos/pc-12ng.webp",
+   "media/productos/meidas-pc-12ng.webp",
+   "media/productos/contenido4.webp",
+   "media/productos/cockpit1.webp"
+  ],
+  "links": []
+ },
+ "pc-9-m-una-aeronave-para-entrenamiento-avanzado": {
+  "name": "PC-9 M Una aeronave para  Entrenamiento Avanzado",
+  "description": "Una aeronave para Entrenamiento Avanzado\n\nRate of Climb 3,880 ft/min\nSpeed 320 keas\nG Loads +7.0 g. / -3.5 g",
+  "images": [
+   "media/productos/pc-9.webp",
+   "media/productos/medidas-pc-9-2.webp",
+   "media/productos/foto1-contenido-1.webp",
+   "media/productos/foto12.webp"
+  ],
+  "links": []
+ },
+ "pc-7-mkii-una-aeronave-para-entrenamiento-basico": {
+  "name": "PC-7 MkII  Una aeronave para Entrenamiento Básico",
+  "description": "Una aeronave para Entrenamiento Básico\n\nRate of Climb 2,675 ft/min\nSpeed 300 keas\nG Loads +7.0 g. / -3.5 g",
+  "images": [
+   "media/productos/pc-7.webp",
+   "media/productos/medidas-pc-7-2.webp",
+   "media/productos/contenido1.webp",
+   "media/productos/contenido3.webp",
+   "media/productos/contenido2.webp"
+  ],
+  "links": []
+ },
+ "lamparas-ge": {
+  "name": "Lámparas GE",
+  "description": "En GE, tenemos una destacada trayectoria en el diseño. Nuestros ingenieros de clase mundial combinan los mejores componentes disponibles con innovadores diseños ópticos, eléctricos y térmicos para crear lámparas y sistemas que están optimizados para un rendimiento superior. Estamos excelentemente posicionados para continuar como una empresa innovadora líder en la industria en los próximos años. Gama de lámparas de GE ofrecen un excelente rendimiento con una estética de calidad y gran fiabilidad. Características tales como una larga vida útil y compatibilidad de regulación lo convierten en un producto muy conveniente",
+  "images": [
+   "media/productos/lamp.webp"
+  ],
+  "links": []
+ },
+ "fluido-hidraulico-para-aviacion-skydrol": {
+  "name": "Fluido hidráulico para aviación Skydrol®",
+  "description": "Skydrol® es el más avanzado fluido hidráulico de la aviación, con el apoyo de expertos de reconocido prestigio en la tecnología de fluidos fosfato – éster. La línea Skydrol® de fluidos hidráulicos resistentes al fuego incluye Skydrol® 500B – 4, Skydrol® LD- 4, 5 y Skydrol® PE- 5. Skydrol® PE- 5 fue desarrollado para cumplir con el Tipo V requerimientos de líquidos hidráulicos desarrollado por Airbus, Boeing, y los fabricantes de fluido hidráulico\nExcelente estabilidad térmica bajo condiciones del mundo real ha dado una reputación como el estándar de oro de los fluidos de Tipo IV. Skydrol LD- 4 cuenta con una baja densidad, excelente estabilidad térmica, la prevención de la erosión de la válvula, y el control de los depósitos.",
+  "images": [
+   "media/productos/skydrol.webp"
+  ],
+  "links": []
+ },
+ "aceite-bp-turbo-2380": {
+  "name": "Aceite BP Turbo 2380",
+  "description": "BP Turbo 2380 es un aceite lubricante sintético cSt 5 que está aprobado en contra de Estados Unidos especificación militar MIL-PRF-23699 ETS, y la especificación militar del Reino Unido DEF STAN 91-101 (sustituido DERD 2499).\nEste lubricante proporciona una combinación equilibrada de estabilidad térmica ya la oxidación, la capacidad de transporte de carga, menor volatilidad y tiene las mejores características de flujo a baja temperatura de los 5 aceites para turbinas cSt",
+  "images": [
+   "media/productos/bp-turbo.webp"
+  ],
+  "links": []
+ },
+ "filtro-de-aceite-champion": {
+  "name": "Filtro de Aceite CHAMPION",
+  "description": "A pedido dealgunos clientes que tenían inconvenientes en instalar los filtros, Champion hiso la lata del filtro de aceite “1/2” más corto y, en el proceso, añadieron mejoras de diseño que ahora hacen sus filtros más fuerte y más eficaces que nunca.\nLos filtros  Champion Aerospace, Filtran todas las partículas nocivas, incluyendo las virutas metálicas que resultan del desgaste anormal del motor. Debido a que el aceite fluye a través de muchas capas de fibras, no hay migración de material de fibra que obstruya los conductos de aceite del motor o afecte a las superficies de apoyo. De acuerdo a las pruebas aprobadas por la industria, los filtros de aceite Champiom frena y contiene partículas más sucias y peligrosas durante su tiempo de funcionamiento normal que cualquier otro filtro similar.",
+  "images": [
+   "media/productos/filtro1.webp",
+   "media/productos/filtro2.webp",
+   "media/productos/filtro3.webp"
+  ],
+  "links": []
+ },
+ "bujias-champion": {
+  "name": "Bujías CHAMPION",
+  "description": "CHAMPION cuenta con la bujía ideal para cada motor (carburados y fuel injection) y bujías especiales de uso industrial, marinos, etc.\nLas bujías CHAMPION tienen más especificaciones de equipo original que cualquier otra bujía fabricada en el mundo.\nCHAMPION la bujía más recomendada en el mundo entero, gracias a su calidad de fabricación. El líder te respalda.",
+  "images": [
+   "media/productos/bujias01.webp",
+   "media/productos/bujias02.webp"
+  ],
+  "links": []
+ },
+ "prist-aditivo-anticongelante": {
+  "name": "Prist Aditivo Anticongelante",
+  "description": "Las latas de aerosol Prist® Hi-Flash® Hi-Flo™ poseen un sistema de gatillo dispensador que hace su uso más fácil y seguro. El disparador le da al usuario el control del flujo del aditivo con instantánea dispensación debido a que viene pre-montado en la lata, lo cual elimina las fugas en la conexión de la válvula. Esto significa, que habrá una menor pérdida, sin goteos o derrames.\nEl aditivo anti-congelante Prist® se provee en una amplia gama de envases, lo que facilita la elección de la cantidad de producto y el método de dispensación para su aplicación.\nLos pilotos lo piden por su nombre.",
+  "images": [
+   "media/productos/prist.webp"
+  ],
+  "links": []
+ },
+ "flight-eagle-lt": {
+  "name": "FLIGHT EAGLE® LT",
+  "description": "Diseñada para aviones livianos.\nMáximo número de aterrizajes.\nDiseño con mejor retención del aire.\nBajo costo por aterrizaje.\nResistencia excelente al efecto del tiempo, la luz del sol y el ozono.",
+  "images": [
+   "media/productos/goodyear-general-flighteaglelt.webp"
+  ],
+  "links": []
+ },
+ "flight-radial-3": {
+  "name": "FLIGHT RADIAL®",
+  "description": "Mejor dimensión en la pisada, que le proporciona estabilidad.\nMejores compuestos, para una vida útil mas larga.\nMejor resistencia, ante cortes y factores de carga.",
+  "images": [
+   "media/productos/goodyear-flightradial1.webp"
+  ],
+  "links": []
+ },
+ "rib": {
+  "name": "RIB",
+  "description": "Una alternativa para aterrizajes de Alto Rendimiento.",
+  "images": [
+   "media/productos/goodyear-militar-rib.webp"
+  ],
+  "links": []
+ },
+ "flight-radial-2": {
+  "name": "FLIGHT RADIAL®",
+  "description": "Mejor dimensión en la pisada, que le proporciona estabilidad.\nMejores compuestos, para una vida útil mas larga.\nMejor resistencia, ante cortes y factores de carga.\nMenos reemplazos garantizan bajos costos de operativos y mejor eficiencia.",
+  "images": [
+   "media/productos/goodyear-flightradial1.webp"
+  ],
+  "links": []
+ },
+ "sta-air-hawk": {
+  "name": "STA Air Hawk®",
+  "description": "Versión mejorada de alta resistencia\nAmplia separación del surco en la banda de rodamiento\nPerfil en escuadra\nRendimiento con buenas características de desgaste",
+  "images": [
+   "media/productos/sta-airhawk1.webp"
+  ],
+  "links": []
+ },
+ "sta-air-trac": {
+  "name": "STA Air Trac",
+  "description": "Diseñado para el uso en pistas de Césped\nEconómico\nPatrón de pisada angosta\nPerfil de tipo ovalada\nConstrucción ligera",
+  "images": [
+   "media/productos/sta-airtrac1.webp"
+  ],
+  "links": []
+ },
+ "ac-4-00-6-6ply": {
+  "name": "AC 4.00-6 6ply",
+  "description": "Perfil con 4 surcos profundos para una mayor duración.\nCompuesto de Caucho de Larga duración 5/32″ de profundidad del dibujo.\nSoporte de velocidad de 50MPH.\nCapacidad de carga de 550 Lbs a 43 Lbs PSI.",
+  "images": [
+   "media/productos/aeroclassic-ac.webp"
+  ],
+  "links": []
+ },
+ "ac-10x3-50-4": {
+  "name": "AC 10&#215;3.50-4",
+  "description": "Hombro en escuadra, 4 surcos.\nAplicaciones para trabajo pesado, 6 telas.\nBaja deflexión de la carcasa.\nAlta Dureza, compuesto de Caucho de larga duración.",
+  "images": [
+   "media/productos/aeroclassic-ac.webp"
+  ],
+  "links": []
+ },
+ "ac-10-00-channel": {
+  "name": "AC 10.00 Channel",
+  "description": "Compuesto de caucho avanzado para una mayor durabilidad.\nDos surcos profundos y hombros cuadrados le dan mayor contacto de Area.\nGuiones Vintage con hombros y robusta profundidad 6/32´de banda de rodamiento.",
+  "images": [
+   "media/productos/aeroclassic-ac.webp"
+  ],
+  "links": []
+ },
+ "ac-2-80-2-50-4": {
+  "name": "AC 2.80/2.50-4",
+  "description": "De alta resistencia y baja deflexión.\nCompuesto de Caucho de goma duradera.\nDiseño de canal Recto para un excelenteseguimiento.\n6 telasnominal , mayor resistencia F.O.D.",
+  "images": [
+   "media/productos/aeroclassic-ac280-250.webp"
+  ],
+  "links": []
+ },
+ "gill-g6381es": {
+  "name": "GILL G6381ES",
+  "description": "24 Volts\nType: Sealed\nWeight: 88.5 lbs.\n1 hr (C1) 44 — 30 min (2C) 70 — 60 sec/0 deg F (CCA) 600\nElectrolyte: Not",
+  "images": [
+   "media/productos/bateria-gill-g6381es.webp",
+   "media/productos/bateria-gill-g6381es-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g6381e": {
+  "name": "GILL G6381E",
+  "description": "24 Volts\nType: Dry\nWeight: 80 lbs.\n1 hr (C1) 43 — 30 min (2C) 70 — 60 sec/0 deg F (CCA) 445\nElectrolyte: 9 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g6381e.webp",
+   "media/productos/bateria-gill-g6381e-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-ge-51c": {
+  "name": "GILL GE 51C",
+  "description": "24 Volts\nType: Dry\nWeight: 56 lbs.\n1 hr (C1) 22 — 30 min (2C) 35 — 60 sec/0 deg F (CCA) 235\nElectrolyte: 5 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-ge51c.webp",
+   "media/productos/bateria-gill-ge51c-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g246": {
+  "name": "GILL G246",
+  "description": "24 Volts\nType: Dry\nWeight: 41.5 lbs.\n1 hr (C1) 19 — 30 min (2C) 32 — 60 sec/0 deg F (CCA) 250\nElectrolyte: 4 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g246.webp",
+   "media/productos/bateria-gill-g246-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g243": {
+  "name": "GILL G243",
+  "description": "24 Volts\nType: Dry\nWeight: 28\n1 hr (C1) 10 — 30 min (2C) 17 — 60 sec/0 deg F (CCA) 150\nElectrolyte: 3 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g243.webp",
+   "media/productos/bateria-gill-g243-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g242": {
+  "name": "GILL G242",
+  "description": "24 Volts\nType: Dry\nWeight: 24\n1 hr (C1) 8 — 30 min (2C) 13 — 60 sec/0 deg F (CCA) 160\nElectrolyte: 3 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g242.webp",
+   "media/productos/bateria-gill-g242-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g241": {
+  "name": "GILL G241",
+  "description": "24\nType: Dry\nWeight: 24\n1 hr (C1) 8 — 30 min (2C) 13 — 60 sec/0 deg F (CCA) 160\nElectrolyte: 3 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g241.webp",
+   "media/productos/bateria-gill-g241-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g-35": {
+  "name": "GILL G-35",
+  "description": "12\nType: Dry\nWeight: 27\n1 hr (C1) 23 — 30 min (2C) 40 — 60 sec/0 deg F (CCA) 250\nElectrolyte: 3 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g35.webp",
+   "media/productos/bateria-gill-g35-plano.webp"
+  ],
+  "links": []
+ },
+ "gill-g-25": {
+  "name": "GILL G-25",
+  "description": "12\nType: Dry\nWeight: 21\n1 hr (C1) 18 — 30 min (2C) 30 — 60 sec/0 deg F (CCA) 225\nElectrolyte: 2 Qts./1.285 s.g",
+  "images": [
+   "media/productos/bateria-gill-g25.webp",
+   "media/productos/bateria-gill-g25-plano.webp"
+  ],
+  "links": []
+ },
+ "coolspoll-29": {
+  "name": "COOLSPOLL 29",
+  "description": "Es un GPU portátil, fácil de manipular y transportar a bordo de la aeronave.\nResistencia excelente al efecto del tiempo, la luz del sol y el ozono.\n28 VOLTS\n2400 AMPERIOS DE PEAK\nIDEAL PARA AVIONES Y HELICÓPTEROS QUE EXIJAN MAS DE 24 VOLTS PARA ARRANQUES\nPESO: 28 kg",
+  "images": [
+   "media/productos/foto4c.webp",
+   "media/productos/foto4d.webp",
+   "media/productos/foto4b.webp",
+   "media/productos/foto4a.webp"
+  ],
+  "links": []
+ },
+ "12-24ga": {
+  "name": "12/24GA",
+  "description": "Un GPU de doble voltaje, de precio económico\n2400 AMPERIOS DE PEAK\n12 O 24 VOLTS\n25 KG DE PESO\nCONSTRUCCIÓN DURABLE Y ROBUSTA\nIDEAL PARA AERONAVES CON MOTORES A PISTÓN\nINCLUYE CABLE DE CONEXIÓN",
+  "images": [
+   "media/productos/foto3a.webp",
+   "media/productos/foto3b.webp",
+   "media/productos/foto3c.webp",
+   "media/productos/foto3d.webp",
+   "media/productos/foto3e.webp"
+  ],
+  "links": []
+ },
+ "ps50c-y-ps30c": {
+  "name": "Ps50C Y Ps30C",
+  "description": "Cargador/fuente de alimentación eléctrico en miniatura, de peso ligero, es capaz de suministrar 30 o 50 amperios\n\nPs 30C: capaz de suministrar hasta 30 A a 14 V CC o 28 V CC\nFuente de alimentación liviana de estado sólido\n\nPS50M: Fuente de alimentación 28V / 31.5V\nFuente de alimentación liviana de estado sólido\nPotencia continua de 50 A / 28 V CC",
+  "images": [
+   "media/productos/foto1c.webp",
+   "media/productos/foto1b.webp",
+   "media/productos/foto1a.webp",
+   "media/productos/foto1e.webp",
+   "media/productos/foto1d.webp"
+  ],
+  "links": []
+ },
+ "portapump-mkii": {
+  "name": "PORTAPUMP MKII",
+  "description": "Bomba de Combustible resistente, diseñado para alimentación rápida o descarga de combustible para todos los tipos de aeronaves.",
+  "images": [
+   "media/productos/powervamp-portapumpmkii.webp"
+  ],
+  "links": []
+ },
+ "coolspool-58": {
+  "name": "COOLSPOOL 29 Twin de 28v",
+  "description": "Dos potentes unidades de arranque de aeronaves de 28 V CC conectadas en paralelo para duplicar la capacidad de arranque de la turbina, adecuadas para aviones y helicópteros de doble turbina más grandes donde se requiere capacidad adicional de amperios / hora para mantener el voltaje bajo carga.\n\n4800 amperios pico\nBaterías AGM de plomo ácido selladas\nAutorizado para el transporte aéreo\nCargador interno con estado LED\nCaja de aluminio con asa de transporte.\nVoltímetro de estado sólido\nToma auxiliar / accesorio\nDisponible en versiones de 26 V o 28 V CC",
+  "images": [
+   "media/productos/foto5c.webp",
+   "media/productos/foto5b.webp",
+   "media/productos/foto5a.webp"
+  ],
+  "links": []
+ },
+ "gpu-1500s": {
+  "name": "GPU 1500S",
+  "description": "Utilizado por militares en todo el mundo.\nResistente a la corrosión por su composición total en acero inoxidable.\nEl mango de cuerpo entero sirve para evitar que se enganche en espacios reducidos.",
+  "images": [
+   "media/productos/powervamp-gps1500s.webp"
+  ],
+  "links": []
+ },
+ "concorde-rg380-e44k": {
+  "name": "CONCORDE RG380/E44K",
+  "description": "Voltage: 24v\nRated Capacity C1 = 1 hr. Rate in ampere hours: 42.00\nMax Weight: 89.00 lb / 40.4 kg",
+  "images": [
+   "media/productos/bateria-condorde-rg380-e44k.webp",
+   "media/productos/bateria-condorde-rg380-e44k-plano.webp"
+  ],
+  "links": []
+ },
+ "concorde-rg380-60l": {
+  "name": "CONCORDE RG380/60L",
+  "description": "Voltage: 24v\nRated Capacity C1 = 1 hr. Rate in ampere hours: 48.00\nMax Weight: 96.00 lb / 43.6 kg",
+  "images": [
+   "media/productos/bateria-condorde-rg380-60l.webp",
+   "media/productos/bateria-condorde-rg380-60l-plano.webp"
+  ],
+  "links": []
+ },
+ "concorde-rg380-e44": {
+  "name": "CONCORDE RG380/E44",
+  "description": "Voltage: 24v\nRated Capacity C1 = 1 hr. Rate in ampere hours: 42.00\nMax Weight: 86.00 lb / 39.0 kg",
+  "images": [
+   "media/productos/bateria-condorde-rg380-e44.webp",
+   "media/productos/bateria-condorde-rg380-e44-plano.webp"
+  ],
+  "links": []
+ },
+ "concorde-rg380-e44l": {
+  "name": "CONCORDE RG380/E44L",
+  "description": "n\n\nVoltage: 24v\nRated Capacity C1 = 1 hr. Rate in ampere hours: 38.00\nMax Weight: 84.00 lb / 38.1 kg",
+  "images": [
+   "media/productos/bateria-condorde-rg380-e44l.webp",
+   "media/productos/bateria-condorde-rg380-e44l-plano.webp"
+  ],
+  "links": []
+ },
+ "concorde-rg390": {
+  "name": "CONCORDE RG390",
+  "description": "n\n\nVoltage: 24v\nRated Capacity C1 = 1 hr. Rate in ampere hours: 28.00\nMax Weight: 62.00 lb / 28.1 kg",
+  "images": [
+   "media/productos/bateria-condorde-rg390.webp",
+   "media/productos/bateria-condorde-rg390-plano.webp"
+  ],
+  "links": []
+ },
+ "concorde-rg380-40l": {
+  "name": "CONCORDE RG380/40L",
+  "description": "Voltage: 24v\nRated Capacity C1 = 1 hr. Rate in ampere hours: 38.00\nMax Weight: 84.00 lb / 38.1 kg",
+  "images": [
+   "media/productos/bateria-condorde-rg380-40l.webp",
+   "media/productos/bateria-condorde-rg380-40l-plano.webp"
+  ],
+  "links": []
+ },
+ "flight-leader": {
+  "name": "FLIGHT LEADER®",
+  "description": "Mejor performance en altas velocidades y gran capacidad de carga.\nResistencia a los efectos del calor.\nVida útil prolongada.",
+  "images": [
+   "media/productos/goodyear-flightleader1.webp"
+  ],
+  "links": []
+ },
+ "flight-radial": {
+  "name": "FLIGHT RADIAL®",
+  "description": "Mejor dimensión en la pisada, que le proporciona estabilidad.\nMejores compuestos, para una vida útil mas larga.\nMejor resistencia, ante cortes y factores de carga.",
+  "images": [
+   "media/productos/goodyear-flightradial1.webp"
+  ],
+  "links": []
+ },
+ "flight-eagle": {
+  "name": "FLIGHT EAGLE®",
+  "description": "Máximo número de aterrizajes.\nDiseño con mejor retención del aire.\nBajo costo por aterrizaje.\nResistencia excelente al efecto del tiempo, la luz del sol y el ozono.",
+  "images": [
+   "media/productos/goodyear-general-flighteagle.webp"
+  ],
+  "links": []
+ },
+ "flight-special-ii": {
+  "name": "FLIGHT SPECIAL II™",
+  "description": "Ofrece 20 % mas que cualquier otro neumático de su tipo, incluso que su predecesor el Flight Custom II\nMayor profundidad de zurco",
+  "images": [
+   "media/productos/goodyear-general-flightspecialii.webp"
+  ],
+  "links": []
+ },
+ "flight-custom-iii": {
+  "name": "FLIGHT CUSTOM III™",
+  "description": "Mayor profundidad de zurco.\nPosee 2 acuachannels mas largos y profundos.\nCintas estabilizadoras de Kevlar® que le otorgan un mayor rodamiento y mayor durabilidad a la banda.",
+  "images": [
+   "media/productos/goodyear-general-flightcustomiii1.webp"
+  ],
+  "links": []
+ }
+}

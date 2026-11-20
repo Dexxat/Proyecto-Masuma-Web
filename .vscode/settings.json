@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "search.exclude": { "**/node_modules": true, "dist": true, ".angular": true },
+  "files.watcherExclude": { "**/node_modules/**": true, "dist/**": true, ".angular/**": true },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "scss.lint.unknownAtRules": "ignore",
+
+  // Las Edge Functions de Supabase corren en Deno, no en Node: Deno solo se activa en esa carpeta.
+  "deno.enable": false,
+  "deno.enablePaths": ["supabase/functions"],
+  "deno.lint": true,
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+}

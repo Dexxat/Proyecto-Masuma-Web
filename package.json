@@ -1,0 +1,40 @@
+{
+  "name": "masuma-web",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "build:prod": "ng build --configuration production",
+    "format": "prettier --write \"src/**/*.{ts,html,scss}\"",
+    "test:functions": "node --test supabase/functions/_shared/mp-signature.test.ts",
+    "catalog": "python3 tools/generate_catalog.py",
+    "catalog:media": "python3 tools/import_catalog_media.py",
+    "check:redirects": "node tools/check-redirects.mjs",
+    "serve:dist": "npx --yes http-server dist/masuma-web/browser -p 4300 -c-1"
+  },
+  "private": true,
+  "packageManager": "npm@10.9.9",
+  "dependencies": {
+    "@angular/common": "^22.3.0",
+    "@angular/compiler": "^22.3.0",
+    "@angular/core": "^22.3.0",
+    "@angular/forms": "^22.3.0",
+    "@angular/platform-browser": "^22.3.0",
+    "@angular/router": "^22.3.0",
+    "@supabase/supabase-js": "^2.119.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^22.3.0",
+    "@angular/cli": "^22.3.0",
+    "@angular/compiler-cli": "^22.3.0",
+    "jsdom": "^31.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "~6.0.2",
+    "vitest": "^5.0.0"
+  }
+}

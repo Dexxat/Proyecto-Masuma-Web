@@ -1,0 +1,8 @@
+# Los webhooks los llaman Mercado Pago y PayPal (sin JWT de Supabase). Su seguridad es la firma, que se valida en el código.
+[functions.mercadopago-webhook]
+verify_jwt = false
+[functions.paypal-webhook]
+verify_jwt = false
+# send-emails se invoca desde un cron con un secreto compartido (x-cron-secret) o por un administrador; se valida en el código.
+[functions.send-emails]
+verify_jwt = false
