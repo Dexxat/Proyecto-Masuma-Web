@@ -12,13 +12,13 @@ import { PlaneIcon, SocialIcon, SocialName } from './shared/icons';
   imports: [RouterOutlet, RouterLink, PlaneIcon, SocialIcon],
   template: `
     <header class="top" #hdr>
-      <a href="/" class="mini" aria-label="Inicio" (click)="nav.home($event)">
+      <a href="./" class="mini" aria-label="Inicio" (click)="nav.home($event)">
         @if (site.logo) { <img class="mini-logo" [src]="site.logo" [alt]="site.name" /> }
         <app-plane-icon [size]="40" />
       </a>
       <nav aria-label="Principal">
         @for (s of sections; track s.id) {
-          <a [href]="'/#' + s.id" class="navlink" [class.on]="nav.active() === s.id" [attr.aria-current]="nav.active() === s.id ? 'true' : null"
+          <a [href]="'#' + s.id" class="navlink" [class.on]="nav.active() === s.id" [attr.aria-current]="nav.active() === s.id ? 'true' : null"
              (click)="nav.go(s.id, $event)"><app-plane-icon [size]="22" />{{ s.label }}</a>
         }
         @if (auth.loggedIn()) {
@@ -36,7 +36,7 @@ import { PlaneIcon, SocialIcon, SocialName } from './shared/icons';
     <main><router-outlet /></main>
     <footer class="foot">
       <div class="foot-in">
-        <a href="/" class="foot-brand" aria-label="MASUMA Internacional, inicio" (click)="nav.home($event)">
+        <a href="./" class="foot-brand" aria-label="MASUMA Internacional, inicio" (click)="nav.home($event)">
           @if (site.logo) { <img [src]="site.logo" alt="" width="40" height="40" /> }
           <span><b>{{ site.name }}</b> Internacional<small>{{ site.tagline }}</small></span>
         </a>

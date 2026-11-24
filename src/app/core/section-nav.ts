@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Injectable, NgZone, inject, signal } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
@@ -14,6 +15,8 @@ export const SECTIONS: { id: SectionId; label: string }[] = [
 export class SectionNav {
   private router = inject(Router);
   private zone = inject(NgZone);
+  /** URL del inicio respetando el <base href> ("/" en local, "/Proyecto-Masuma-Web/" en GitHub Pages). */
+  private homeUrl = inject(Location).prepareExternalUrl('/');
   readonly active = signal<SectionId | null>(null);
   private reduced = typeof matchMedia !== 'undefined' && matchMedia('(prefers-reduced-motion: reduce)').matches;
   private userScrolled = false;
@@ -49,12 +52,12 @@ export class SectionNav {
   }
   scrollTo(id: SectionId) {
     document.getElementById(id)?.scrollIntoView({ behavior: this.reduced ? 'auto' : 'smooth', block: 'start' });
-    history.replaceState(history.state, '', '/#' + id);    // la URL refleja la sección (se puede compartir)
+    history.replaceState(history.state, '', this.homeUrl + '#' + id);    // la URL refleja la sección (se puede compartir)
   }
   /** Logo del header: inicio del hero. */
   home(ev?: Event) {
     ev?.preventDefault();
-    if (this.path() === '/') { scrollTo({ top: 0, behavior: this.reduced ? 'auto' : 'smooth' }); history.replaceState(history.state, '', '/'); }
+    if (this.path() === '/') { scrollTo({ top: 0, behavior: this.reduced ? 'auto' : 'smooth' }); history.replaceState(history.state, '', this.homeUrl); }
     else this.router.navigateByUrl('/');
   }
 

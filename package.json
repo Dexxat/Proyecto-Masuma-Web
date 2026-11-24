@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:prod": "ng build --configuration production",
+    "build:gh-pages": "ng build --configuration production --base-href /Proyecto-Masuma-Web/ && cp dist/masuma-web/browser/index.html dist/masuma-web/browser/404.html",
     "format": "prettier --write \"src/**/*.{ts,html,scss}\"",
     "test:functions": "node --test supabase/functions/_shared/mp-signature.test.ts",
     "catalog": "python3 tools/generate_catalog.py",

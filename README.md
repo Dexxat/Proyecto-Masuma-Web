@@ -38,7 +38,17 @@ Todo está documentado y listo para conectar en [`docs/INTEGRACION-CARRITO-PAGOS
 | `npm run check:redirects` | verifica las redirecciones del sitio viejo |
 | `npm run serve:dist` | sirve la compilación para probarla como en producción |
 
-## Deploy
+## Publicar en GitHub Pages (automático)
+Cada push a `main` compila y publica el sitio con GitHub Actions (`.github/workflows/deploy-pages.yml`): instala, corre las pruebas, compila con la ruta base del repositorio y publica en `https://dexxat.github.io/Proyecto-Masuma-Web/`.
+1. **Una sola vez:** en GitHub, *Settings → Pages → Build and deployment → Source:* **GitHub Actions**.
+2. **Una sola vez:** en Supabase, *Authentication → URL Configuration*: agregar `https://dexxat.github.io/Proyecto-Masuma-Web/` en **Site URL** y en **Redirect URLs** (para el login).
+3. Para probar la versión de Pages en la compu: `npm run build:gh-pages` (genera `dist/masuma-web/browser` con la ruta base y el `404.html`).
+
+Cómo funciona: el sitio vive en una subcarpeta, así que se compila con `--base-href /Proyecto-Masuma-Web/` (los links usan rutas relativas al `<base href>`). GitHub Pages no tiene reescrituras: al entrar directo a `/catalogo` o a una ficha, sirve `404.html` (copia de `index.html`), que carga la app y el router muestra la página. **Con dominio propio** (ej. `masuma.com.ar`): agregar el dominio en *Settings → Pages* y cambiar `BASE_HREF` a `/` en el workflow.
+
+Limitaciones de GitHub Pages frente a Vercel: no aplica las cabeceras de seguridad (CSP) ni las redirecciones 301 de `vercel.json`. Las URLs viejas del sitio anterior solo importan si el dominio `masuma.com.ar` apunta acá; en ese caso conviene Vercel (ver abajo).
+
+## Deploy en Vercel (alternativa)
 Importar el repositorio en Vercel (usa `vercel.json`: cabeceras de seguridad, CSP, redirecciones) y apuntar `masuma.com.ar` desde el DNS actual. Las Edge Functions se despliegan con `supabase functions deploy`.
 
 ## Mapa de la documentación

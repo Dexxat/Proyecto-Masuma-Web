@@ -58,9 +58,9 @@ interface Row { type: ProductType; items: Product[]; }
                       @empty { <dt>Ficha técnica</dt><dd>pendiente</dd> }
                     </dl>
                     <div class="buy">
-                      @if (isLead(r.type)) { <a class="ask" href="/#contacto" (click)="goContact($event)">Consultar este modelo</a> }
+                      @if (isLead(r.type)) { <a class="ask" href="#contacto" (click)="goContact($event)">Consultar este modelo</a> }
                       @else if (buyable(p)) { <strong>{{ '$' + p.price_ars }}</strong><small>{{ p.stock }} en stock</small> }
-                      @else { <a href="/#contacto" (click)="goContact($event)">Consultar precio</a> }
+                      @else { <a href="#contacto" (click)="goContact($event)">Consultar precio</a> }
                       <span class="grow"></span>
                       <button type="button" class="round" [class.on]="favs.isFav(p.id)" [attr.aria-pressed]="favs.isFav(p.id)" (click)="fav(p); $event.stopPropagation()" aria-label="Favorito"><app-ui-icon name="heart" /></button>
                       @if (pick() && buyable(p)) {
